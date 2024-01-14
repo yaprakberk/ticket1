@@ -1,0 +1,247 @@
+* {
+  color: white;
+}
+body {
+  background-color: rgb(31, 0, 37);
+}
+
+input {
+  color: black;
+}
+button {
+  color: black;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+}
+
+.clasnameadi {
+  color: black;
+  background-color: red;
+}
+
+* {
+  color: white;
+}
+
+body {
+  background-color: rgb(31, 0, 37);
+  margin: 0; /* Sayfa kenar boşluklarını sıfırla */
+  padding: 0; /* Sayfa iç boşluklarını sıfırla */
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333; /* Arka plan renginizi belirleyin */
+  padding: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: white; /* Metin renginizi belirleyin */
+  margin-right: 100px; /* İstenilen sağ kenar boşluğunu belirleyin */
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.link:hover {
+  color: #ffd700; /* Üzerine gelindiğindeki renk */
+}
+
+.navbar-container .link {
+  margin-bottom: 10px; /* İstenilen dikey mesafeyi belirleyin */
+}
+
+.img-container {
+  max-width: 100px; /* Logo konteyneri için maksimum genişliği belirleyin */
+}
+
+/* Logo için ek stiller ekleyin, örneğin, resim boyutu, kenar boşluğu, vb. */
+
+/* Örnek logo stili */
+.img-container img[src*="/15945.png"] {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Duyarlılık için medya sorgusu */
+@media (max-width: 768px) {
+  .navbar-container {
+    flex-direction: column;
+    align-items: center; /* Butonları ve logo yatay olarak ortala */
+  }
+
+  .link {
+    margin: 5px 0; /* Yatay ve dikey boşluğu belirleyin */
+    margin-right: 0;
+  }
+
+  .navbar-container .link {
+    margin-bottom: 0; /* Dikey mesafeyi sıfırla */
+  }
+
+  /* styles.css */
+
+/* Ana Sayfa Konteyneri */
+.HomeContainer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+/* Logout Butonu */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #ff6347; /* Turuncu renk örneği */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #cc4b37; /* Hover için renk örneği */
+}
+
+/* Paragraf */
+p {
+  font-size: 18px;
+  color: #333;
+  margin-top: 20px;
+}
+/* styles.css */
+
+.concert-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px; /* Kutucuklar arasındaki boşluk */
+  margin-top: 60px; /* Sayfanın üst tarafındaki boşluk */
+}
+
+.concert-box {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #f8f8f8; /* Kutucuk arka plan rengi */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Gölgelendirme efekti */
+}
+
+.concert-box h2 {
+  margin-bottom: 10px; /* Başlık ile içerik arasındaki boşluk */
+}
+
+.concert-box p {
+  font-size: 16px;
+  color: #333;
+}
+
+.concert-box img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px; /* İmaj ile içerik arasındaki boşluk */
+}
+/* Navbar.css */
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+}
+
+.img-container img {
+  max-width: 100px; /* Logo konteyneri için maksimum genişliği belirleyin */
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.link:hover {
+  color: #ffd700;
+}
+
+.navbar-container .link {
+  margin-bottom: 5px;
+}
+
+/* Dikey mesafe eklemek için */
+.navbar-container .link {
+  margin-bottom: 5px; /* İstenilen dikey mesafeyi belirleyin */
+}
+/* Stil Dosyası (styles.css) */
+
+.about-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px; /* Sayfanın üst tarafındaki boşluk */
+}
+
+.about-box {
+  width: 250px; /* Kutu genişliği */
+  padding: 20px;
+  border: 3px solid #b99506; /* Sarı çerçeve rengi ve kalınlığı */
+  border-radius: 10px;
+  text-align: center;
+  background-color: #f8f8f8; /* Kutucuk arka plan rengi */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Gölgelendirme efekti */
+  margin: 10px; /* Kutucuklar arasındaki boşluk */
+}
+
+.about-box h2 {
+  margin-bottom: 10px; /* Başlık ile içerik arasındaki boşluk */
+}
+
+.about-box p {
+  font-size: 10px;
+  color: #333;
+}
+/* CSS Stilleri */
+.concert-box {
+  width: 250px; /* İstenilen genişliği belirleyin */
+  height: 300px; /* İstenilen yüksekliği belirleyin */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #f8f8f8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+.concert-box h2 {
+  margin-bottom: 10px;
+}
+
+.concert-box p {
+  font-size: 16px;
+  color: #333;
+}
+
+.concert-box img {
+  max-width: 100%;
+  height: auto;
+  max-height: 150px; /* İstenilen maksimum yüksekliği belirleyin */
+  margin-top: 10px;
+}
+
+}
+

@@ -1,12 +1,15 @@
 // Canser.jsx
 
 import React from "react";
+import ConsertBox from "../components/ConsertBox";
 
 function Canser() {
   return (
     <div>
       <div className="concert-container">
-        <div className="concert-box">
+
+        <ConsertBox  date="asdasd" destriptions="asdasdasdauhsudhauhsdu" img="edis.png" title="asdasdasd"/>
+               <div className="concert-box">
           <h2>EDİS KONSERİ</h2>
           <p>
             Sevilen sanatçı EDİS çok yakında sevenleriyle buluşmaya hazırlanıyor

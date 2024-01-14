@@ -1,6 +1,7 @@
 * {
   color: white;
 }
+
 body {
   background-color: rgb(31, 0, 37);
 }
@@ -8,9 +9,11 @@ body {
 input {
   color: black;
 }
+
 button {
   color: black;
 }
+
 p,
 h1,
 h2,
@@ -88,16 +91,35 @@ body {
     margin-bottom: 0; /* Dikey mesafeyi sıfırla */
   }
 
-  /* styles.css */
+  /* Paragraf */
 
-/* Ana Sayfa Konteyneri */
-.HomeContainer {
-  text-align: center;
-  padding: 20px;
-  background-color: #f4f4f4;
+  /* CSS Stilleri */
+}
+.concert-box img {
+  max-width: 100%;
+  height: auto;
+  max-height: 150px; /* İstenilen maksimum yüksekliği belirleyin */
+  margin-top: 10px;
 }
 
-/* Logout Butonu */
+.concert-box p {
+  font-size: 16px;
+  color: #333;
+}
+.concert-box h2 {
+  margin-bottom: 10px;
+}
+.concert-box {
+  width: 250px; /* İstenilen genişliği belirleyin */
+  height: 300px; /* İstenilen yüksekliği belirleyin */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #f8f8f8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
 button {
   padding: 10px 20px;
   font-size: 16px;
@@ -109,11 +131,21 @@ button {
   margin-top: 10px;
 }
 
-button:hover {
-  background-color: #cc4b37; /* Hover için renk örneği */
+.concert-box {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #f8f8f8; /* Kutucuk arka plan rengi */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Gölgelendirme efekti */
 }
 
-/* Paragraf */
+.HomeContainer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
 p {
   font-size: 18px;
   color: #333;
@@ -129,13 +161,8 @@ p {
   margin-top: 60px; /* Sayfanın üst tarafındaki boşluk */
 }
 
-.concert-box {
-  padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  text-align: center;
-  background-color: #f8f8f8; /* Kutucuk arka plan rengi */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Gölgelendirme efekti */
+button:hover {
+  background-color: #cc4b37; /* Hover için renk örneği */
 }
 
 .concert-box h2 {
@@ -214,34 +241,3 @@ p {
   font-size: 10px;
   color: #333;
 }
-/* CSS Stilleri */
-.concert-box {
-  width: 250px; /* İstenilen genişliği belirleyin */
-  height: 300px; /* İstenilen yüksekliği belirleyin */
-  padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  text-align: center;
-  background-color: #f8f8f8;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin: 10px;
-}
-
-.concert-box h2 {
-  margin-bottom: 10px;
-}
-
-.concert-box p {
-  font-size: 16px;
-  color: #333;
-}
-
-.concert-box img {
-  max-width: 100%;
-  height: auto;
-  max-height: 150px; /* İstenilen maksimum yüksekliği belirleyin */
-  margin-top: 10px;
-}
-
-}
-

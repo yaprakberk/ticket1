@@ -16,17 +16,17 @@ function About() {
         <h2>Amacımız</h2>
         <p>
         İnsanları bir araya getirmek ve onlara unutulmaz anlar yaşatmaktır.
-
-Sanat, kültür, müzik ve eğlence dünyasında yaratıcı ve çeşitli deneyimler sunarak, herkesin ilgi alanlarına hitap eden etkinliklere ulaşımını sağlamaktır.
+        Sanat, kültür, müzik ve eğlence dünyasında yaratıcı ve çeşitli deneyimler sunarak, 
+        herkesin ilgi alanlarına hitap eden etkinliklere ulaşımını sağlamaktır.
         </p>
       </div>
 
       <div className="about-box">
         <h2>Neden Bizi Seçmelisiniz</h2>
         <p>
-        Geniş Etkinlik Yelpazesi: Konserler, tiyatro ve festivallere kadar geniş bir etkinlik yelpazesi sunuyoruz.
-
-Güvenilir ve Kolay Kullanım: Güvenli ödeme seçenekleri ve kullanıcı dostu aray yüzümüzle bilet satın almak hiç bu kadar kolay olmamıştı.
+        Konserler,tiyatro ve festivallere kadar geniş bir etkinlik yelpazesi sunuyoruz.
+ Güvenli ödeme seçenekleri ve kullanıcı dostu aray yüzümüzle 
+ bilet satın almak hiç bu kadar kolay olmamıştı.
 
         </p>
       </div>
@@ -34,11 +34,9 @@ Güvenilir ve Kolay Kullanım: Güvenli ödeme seçenekleri ve kullanıcı dostu
       <div className="about-box">
         <h2>Bize Ulaşın</h2>
         <p>
-          Soru, öneri veya geri bildirimleriniz için her zaman buradayız. (İletişim Bilgileri) üzerinden bize ulaşabilir, değerlendirme anketinizi gönderebilirsiniz.
-
-Eğlenceli ve unutulmaz anlarınız için buradayız!
-
-Etkinlik dolu günler dileriz,
+       Soru, öneri veya geri bildirimleriniz için her zaman buradayız.
+       bize ulaşabilir, değerlendirme anketinizi gönderebilirsiniz. Eğlenceli ve unutulmaz anlarınız için buradayız!
+        Etkinlik dolu günler dileriz,
         </p>
       </div>
     </div>

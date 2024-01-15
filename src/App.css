@@ -88,7 +88,7 @@ body {
 .concert-box img {
   max-width: 100%;
   height: auto;
-  max-height: 150px; /* İstenilen maksimum yüksekliği belirleyin */
+  max-height: 200px; /* İstenilen maksimum yüksekliği belirleyin */
   margin-top: 10px;
 }
 
@@ -230,4 +230,137 @@ button:hover {
 .about-box p {
   font-size: 10px;
   color: #333;
+}
+
+/* Stil Dosyası (styles.css) */
+
+/* Stil Dosyası (styles.css) */
+
+.HomeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh; /* Sayfanın yarısını kaplamak için */
+  max-width: 600px; /* Maksimum genişlik belirleyebilirsiniz */
+  margin: auto; /* Dikey ve yatay merkezlemek için */
+  background-color: #ffff00; /* Sarı arka plan rengi */
+}
+
+
+button {
+  padding: 30px 50px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #993399; /* Mor renk örneği */
+  color: rgb(248, 240, 247);
+  border: 8px solid #fd9903; /* Mor çerçeve rengi */
+  border-radius: 15px;
+  margin-top: 150px;
+}
+
+button:hover {
+  background-color: #800080; /* Hover için renk örneği */
+  border-color: #800080; /* Hover için çerçeve rengi */
+}
+
+p {
+  font-size: 20px;
+  color: #333;
+  margin-top: 20px;
+  border: 4px solid #360036; /* Mor çerçeve rengi */
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #ffff00; /* Sarı arka plan rengi */
+}
+/* Stil Dosyası (styles.css) */
+
+.concert-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Kutucuklar arasındaki boşluk */
+  flex-wrap: wrap; /* Yeterli genişlik olmazsa alt satıra geç */
+  margin-top: 40px; /* Sayfanın üst tarafındaki boşluk */
+}
+
+.concert-box {
+  width: 250px; /* İstenilen genişliği belirleyin */
+  height: 460px; /* İstenilen yüksekliği belirleyin */
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #e47900; /* Kutucuk arka plan rengi */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Gölgelendirme efekti */
+  margin: 10px; /* Kutucuklar arasındaki boşluk */
+}
+
+/* Genel sayfa düzeni */
+.HomeContainer,
+/* Stil Dosyası (styles.css) */
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px; /* Sayfanın üst tarafındaki boşluk */
+}
+
+.about-box {
+  width: 250px; /* Kutu genişliği */
+  padding: 40px;
+  border: 8px solid #e7c505; /* Sarı çerçeve rengi ve kalınlığı */
+  border-radius: 10px;
+  text-align: center;
+  background-color: #f5730a; /* Kutucuk arka plan rengi */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Gölgelendirme efekti */
+  margin: 10px; /* Kutucuklar arasındaki boşluk */
+}
+
+.about-box h2 {
+  margin-bottom: 10px; /* Başlık ile içerik arasındaki boşluk */
+}
+
+.about-box p {
+  font-size: 10px;
+  color: #333;
+}
+
+/* Stil Dosyası (styles.css) */
+/* styles.css */
+
+.concert-container {
+  display: flex;
+  justify-content: space-around; /* Kutuları eşit aralıklarla yerleştir */
+  align-items: center;
+}
+
+.theatre-box {
+  width: 250px;
+  height: 460px;
+  padding: 40px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #f8f8f8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+.theatre-box h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.theatre-box p {
+  font-size: 14px;
+  color: #333;
+}
+
+.theatre-box img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
 }

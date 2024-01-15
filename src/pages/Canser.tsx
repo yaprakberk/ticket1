@@ -8,14 +8,13 @@ function Canser() {
     <div>
       <div className="concert-container">
 
-        <ConsertBox  date="asdasd" destriptions="asdasdasdauhsudhauhsdu" img="edis.png" title="asdasdasd"/>
-               <div className="concert-box">
-          <h2>EDİS KONSERİ</h2>
-          <p>
-            Sevilen sanatçı EDİS çok yakında sevenleriyle buluşmaya hazırlanıyor
-          </p>
-          <img src="edis.png" alt="Konser Afişi 1" />
-        </div>
+        <ConsertBox  date="20 NİSAN" destriptions="Etkinlik Hakkında Bilmeniz Gerekenler
+8 yaşından küçük çocuklar etkinliğe alınmamaktadır.
+
+8 yaş ve üzeri bilete tabidir.
+
+Etkinlik girişinde bilet kontrolü yapılacaktır, biletinizi telefondan göstermeniz gerekmektedir." img="edis.png" title="EDİS"/>
+              
         <div className="concert-box">
           <h2>EMİR CAN İĞREK KONSERİ</h2>
           <p>

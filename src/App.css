@@ -1,7 +1,3 @@
-* {
-  color: white;
-}
-
 body {
   background-color: rgb(31, 0, 37);
 }
@@ -17,10 +13,6 @@ button {
 .clasnameadi {
   color: black;
   background-color: red;
-}
-
-* {
-  color: white;
 }
 
 body {
@@ -214,23 +206,25 @@ button:hover {
 }
 
 .about-box {
-  width: 250px; /* Kutu genişliği */
+  width: 250px; /* İstenilen genişliği belirleyin */
+  height: 300px; /* İstenilen yüksekliği belirleyin */
   padding: 20px;
-  border: 3px solid #b99506; /* Sarı çerçeve rengi ve kalınlığı */
+  border: 1px solid #ddd;
   border-radius: 10px;
   text-align: center;
-  background-color: #f8f8f8; /* Kutucuk arka plan rengi */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Gölgelendirme efekti */
-  margin: 10px; /* Kutucuklar arasındaki boşluk */
+  background-color: #f8f8f8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
 }
 
 .about-box h2 {
+  font-size: 33px;
   margin-bottom: 10px; /* Başlık ile içerik arasındaki boşluk */
 }
 
 .about-box p {
-  font-size: 10px;
-  color: #333;
+  font-size: 222223px;
+  color: #ff0000;
 }
 
 /* Stil Dosyası (styles.css) */
@@ -264,7 +258,7 @@ button:hover {
   border-color: #800080; /* Hover için çerçeve rengi */
 }
 
-p {
+.p {
   font-size: 20px;
   color: #333;
   margin-top: 20px;
@@ -364,8 +358,11 @@ p {
   height: auto;
   margin-top: 10px;
 }
-/* .bg {
-  background-image: url("arkaplan-resmi.png");
+.bg {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../public/bg1.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
-} */
+  margin: 0;
+}

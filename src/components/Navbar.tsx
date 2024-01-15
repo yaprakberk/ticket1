@@ -2,13 +2,16 @@ import React from "react";
 import { NavLink, Outlet, useNavigate } from "react-router-dom";
 import { AuthRoute, MainRoutes } from "../constants/Routes";
 import { appLogout } from "../state/slices/authSlice";
+import { useAppDispatch } from "../state/store";
 
 const Navbar = () => {
   const navi = useNavigate();
 
+  const dispatch = useAppDispatch();
   const logout = async () => {
     await dispatch(appLogout());
   };
+
   const navigate = useNavigate();
   return (
     <div>
@@ -29,7 +32,6 @@ const Navbar = () => {
           Tiyatro
         </NavLink>
         <button
-          className="link"
           onClick={async () => {
             await logout();
             await navi(AuthRoute.signup);
@@ -38,7 +40,6 @@ const Navbar = () => {
           Logout
         </button>
       </div>
-
       <Outlet />
     </div>
   );

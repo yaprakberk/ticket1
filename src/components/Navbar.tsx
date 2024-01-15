@@ -1,8 +1,14 @@
 import React from "react";
 import { NavLink, Outlet, useNavigate } from "react-router-dom";
-import { MainRoutes } from "../constants/Routes";
+import { AuthRoute, MainRoutes } from "../constants/Routes";
+import { appLogout } from "../state/slices/authSlice";
 
 const Navbar = () => {
+  const navi = useNavigate();
+
+  const logout = async () => {
+    await dispatch(appLogout());
+  };
   const navigate = useNavigate();
   return (
     <div>
@@ -22,6 +28,15 @@ const Navbar = () => {
         <NavLink className="link" to={MainRoutes.theatre}>
           Tiyatro
         </NavLink>
+        <button
+          className="link"
+          onClick={async () => {
+            await logout();
+            await navi(AuthRoute.signup);
+            console.log("asd");
+          }}>
+          Logout
+        </button>
       </div>
 
       <Outlet />
@@ -30,3 +45,6 @@ const Navbar = () => {
 };
 
 export default Navbar;
+function dispatch(arg0: any) {
+  throw new Error("Function not implemented.");
+}

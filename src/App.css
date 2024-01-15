@@ -43,6 +43,7 @@ body {
   margin-right: 100px; /* İstenilen sağ kenar boşluğunu belirleyin */
   font-weight: bold;
   font-size: 20px;
+  margin: 0;
 }
 
 .link:hover {
@@ -247,8 +248,7 @@ button:hover {
   background-color: #ffff00; /* Sarı arka plan rengi */
 }
 
-
-button {
+.button {
   padding: 30px 50px;
   font-size: 15px;
   cursor: pointer;
@@ -363,4 +363,9 @@ p {
   max-width: 100%;
   height: auto;
   margin-top: 10px;
+}
+.bg {
+  background-image: url("arkaplan-resmi.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
